@@ -22,6 +22,5 @@ public class MessageController {
     public ResponseEntity<String> publish(@RequestParam("message") String message){
         kafkaProducer.sendMessage(message);
         return ResponseEntity.ok("Message Sent to the topic");
-
     }
 }
