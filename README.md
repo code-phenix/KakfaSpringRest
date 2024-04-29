@@ -14,3 +14,12 @@ STEP 5:  READ THE EVENTS
 .\bin\windows\kafka-console-consumer.bat --topic topic_demo --from-beginning --bootstrap-server localhost:9092
 hello world
 topic demo
+
+========================
+zookeeper.properties — For the dataDir variable, assign your kafka folder path and add the name of the zookeeper data folder as below
+![image](https://github.com/code-phenix/KakfaSpringRest/assets/55018311/32d2532d-0467-47f0-b04c-1be9d2545419)
+
+server.properties — In the log.dirs varaibale, assign the path of your Kafka folder and then add the name of the Kafka log data folder as below.
+
+![Uploading image.png…]()
+
